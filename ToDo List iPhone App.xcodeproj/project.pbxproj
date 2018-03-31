@@ -15,6 +15,7 @@
 		1713D47F206F456600371EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713D47E206F456600371EDC /* main.m */; };
 		1713D489206F456600371EDC /* ToDo_List_iPhone_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713D488206F456600371EDC /* ToDo_List_iPhone_AppTests.m */; };
 		1713D494206F456600371EDC /* ToDo_List_iPhone_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713D493206F456600371EDC /* ToDo_List_iPhone_AppUITests.m */; };
+		1713D4A3206F4BBA00371EDC /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713D4A2206F4BBA00371EDC /* ListTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1713D48F206F456600371EDC /* ToDo List iPhone AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDo List iPhone AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1713D493206F456600371EDC /* ToDo_List_iPhone_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDo_List_iPhone_AppUITests.m; sourceTree = "<group>"; };
 		1713D495206F456600371EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1713D4A1206F4BBA00371EDC /* ListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		1713D4A2206F4BBA00371EDC /* ListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +104,13 @@
 		1713D46E206F456600371EDC /* ToDo List iPhone App */ = {
 			isa = PBXGroup;
 			children = (
+				1713D475206F456600371EDC /* Main.storyboard */,
 				1713D46F206F456600371EDC /* AppDelegate.h */,
 				1713D470206F456600371EDC /* AppDelegate.m */,
 				1713D472206F456600371EDC /* ViewController.h */,
 				1713D473206F456600371EDC /* ViewController.m */,
-				1713D475206F456600371EDC /* Main.storyboard */,
+				1713D4A1206F4BBA00371EDC /* ListTableViewCell.h */,
+				1713D4A2206F4BBA00371EDC /* ListTableViewCell.m */,
 				1713D478206F456600371EDC /* Assets.xcassets */,
 				1713D47A206F456600371EDC /* LaunchScreen.storyboard */,
 				1713D47D206F456600371EDC /* Info.plist */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1713D474206F456600371EDC /* ViewController.m in Sources */,
+				1713D4A3206F4BBA00371EDC /* ListTableViewCell.m in Sources */,
 				1713D47F206F456600371EDC /* main.m in Sources */,
 				1713D471206F456600371EDC /* AppDelegate.m in Sources */,
 			);
