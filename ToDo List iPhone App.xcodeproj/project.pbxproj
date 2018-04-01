@@ -16,6 +16,7 @@
 		1713D489206F456600371EDC /* ToDo_List_iPhone_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713D488206F456600371EDC /* ToDo_List_iPhone_AppTests.m */; };
 		1713D494206F456600371EDC /* ToDo_List_iPhone_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713D493206F456600371EDC /* ToDo_List_iPhone_AppUITests.m */; };
 		1713D4A3206F4BBA00371EDC /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713D4A2206F4BBA00371EDC /* ListTableViewCell.m */; };
+		176FFECA20703D69003806CB /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176FFEC920703D69003806CB /* AddItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		1713D495206F456600371EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1713D4A1206F4BBA00371EDC /* ListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
 		1713D4A2206F4BBA00371EDC /* ListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		176FFEC820703D69003806CB /* AddItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		176FFEC920703D69003806CB /* AddItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,15 +107,16 @@
 		1713D46E206F456600371EDC /* ToDo List iPhone App */ = {
 			isa = PBXGroup;
 			children = (
-				1713D475206F456600371EDC /* Main.storyboard */,
+				176FFECB2070590C003806CB /* StoryBoards */,
 				1713D46F206F456600371EDC /* AppDelegate.h */,
 				1713D470206F456600371EDC /* AppDelegate.m */,
 				1713D472206F456600371EDC /* ViewController.h */,
 				1713D473206F456600371EDC /* ViewController.m */,
 				1713D4A1206F4BBA00371EDC /* ListTableViewCell.h */,
 				1713D4A2206F4BBA00371EDC /* ListTableViewCell.m */,
+				176FFEC820703D69003806CB /* AddItemViewController.h */,
+				176FFEC920703D69003806CB /* AddItemViewController.m */,
 				1713D478206F456600371EDC /* Assets.xcassets */,
-				1713D47A206F456600371EDC /* LaunchScreen.storyboard */,
 				1713D47D206F456600371EDC /* Info.plist */,
 				1713D47E206F456600371EDC /* main.m */,
 			);
@@ -135,6 +139,15 @@
 				1713D495206F456600371EDC /* Info.plist */,
 			);
 			path = "ToDo List iPhone AppUITests";
+			sourceTree = "<group>";
+		};
+		176FFECB2070590C003806CB /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				1713D475206F456600371EDC /* Main.storyboard */,
+				1713D47A206F456600371EDC /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				1713D474206F456600371EDC /* ViewController.m in Sources */,
 				1713D4A3206F4BBA00371EDC /* ListTableViewCell.m in Sources */,
 				1713D47F206F456600371EDC /* main.m in Sources */,
+				176FFECA20703D69003806CB /* AddItemViewController.m in Sources */,
 				1713D471206F456600371EDC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
